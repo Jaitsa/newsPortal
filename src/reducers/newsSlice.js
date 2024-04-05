@@ -39,7 +39,7 @@ export const fetchData = async (dispatch, request) => {
     const ids = await request('https://hacker-news.firebaseio.com/v0/newstories.json');
 
     const limitedIds = ids.slice(0, 100);
-
+    //7
     const dataPromises = limitedIds.map(id =>
       request(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
     );
