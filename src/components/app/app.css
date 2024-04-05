@@ -1,0 +1,40 @@
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.app-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.app-header button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.app-header button:hover {
+  background-color: #0056b3;
+}

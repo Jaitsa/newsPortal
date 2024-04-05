@@ -1,0 +1,36 @@
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.app__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hackernews {
+  color: white;
+  text-decoration: none;
+}
+
+.hackernews:hover {
+  color: rgb(204, 204, 204);
+}
